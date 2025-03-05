@@ -12,7 +12,7 @@ body {
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
 }
-header{
+#header{
     padding: 15px;
     background-color: rgba(71,109,147,1);
     color: white;
@@ -30,13 +30,13 @@ header{
     background-color: rgba(144,94,65, 1);
     color: white;
 }
-main{
+#main{
     grid-column: 2 / 3;
     padding: 15px;
     background-color: rgba(153,127,40, 1);
     color: white;
 }
-footer{
+#footer{
     grid-column: 1 / 4;
     padding: 15px;
     background-color: rgba(71,109,147,1);
